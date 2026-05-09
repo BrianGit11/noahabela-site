@@ -111,21 +111,38 @@ export default function Contact() {
               </div>
             </div>
 
-            <div>
-              <label
-                htmlFor="email"
-                className="block text-xs uppercase tracking-widest text-muted font-medium mb-2"
-              >
-                Email
-              </label>
-              <input
-                id="email"
-                name="email"
-                type="email"
-                required
-                className="w-full bg-charcoal-mid border border-charcoal-light text-white text-sm px-4 py-3 focus:outline-none focus:border-gold transition-colors placeholder:text-muted/40"
-                placeholder="your@email.com"
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-xs uppercase tracking-widest text-muted font-medium mb-2"
+                >
+                  Email
+                </label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  required
+                  className="w-full bg-charcoal-mid border border-charcoal-light text-white text-sm px-4 py-3 focus:outline-none focus:border-gold transition-colors placeholder:text-muted/40"
+                  placeholder="your@email.com"
+                />
+              </div>
+              <div>
+                <label
+                  htmlFor="phone"
+                  className="block text-xs uppercase tracking-widest text-muted font-medium mb-2"
+                >
+                  Phone <span className="text-muted/50 normal-case tracking-normal">(optional)</span>
+                </label>
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  className="w-full bg-charcoal-mid border border-charcoal-light text-white text-sm px-4 py-3 focus:outline-none focus:border-gold transition-colors placeholder:text-muted/40"
+                  placeholder="Your phone number"
+                />
+              </div>
             </div>
 
             <div>
