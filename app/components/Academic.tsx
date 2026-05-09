@@ -15,13 +15,12 @@ export default function Academic() {
             </div>
           </div>
 
-          {/* SAT/ACT placeholder */}
-          <div className="text-center border border-dashed border-charcoal-light px-10 py-8 min-w-[180px]">
-            <div className="text-muted text-3xl font-bold mb-2">—</div>
+          {/* SAT */}
+          <div className="text-center border border-charcoal-light px-10 py-8 min-w-[180px]">
+            <div className="text-gold text-5xl font-bold mb-2">1270</div>
             <div className="text-muted text-xs uppercase tracking-widest font-medium">
-              SAT / ACT
+              SAT
             </div>
-            <div className="text-muted/50 text-xs mt-1">Coming soon</div>
           </div>
         </div>
 
