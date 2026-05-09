@@ -4,14 +4,14 @@ const rankings = [
     position: "Kicker Nationally",
     org: "Kohl's Professional Camps",
     detail: "Class of 2026",
-    href: "https://kohlskicking.com",
+    href: "https://www.kohlskicking.com/player-profiles/noah-abela",
   },
   {
     rank: "#4",
     position: "Punter Nationally",
     org: "Chris Sailer Kicking",
     detail: "Class of 2026",
-    href: "https://chrissailerkicking.com",
+    href: "https://www.chrissailerkicking.com/player-rankings/noah-abela/punters/2026",
   },
 ];
 
@@ -24,7 +24,7 @@ export default function Rankings() {
         </h2>
 
         {/* Ranking cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {rankings.map((r) => (
             <div
               key={r.position}
@@ -49,6 +49,19 @@ export default function Rankings() {
               </a>
             </div>
           ))}
+        </div>
+
+        {/* All-State recognition */}
+        <div className="border-l-4 border-gold bg-charcoal px-6 py-5 mb-10 flex flex-col sm:flex-row sm:items-center gap-3">
+          <div className="text-gold text-2xl leading-none shrink-0">★</div>
+          <div>
+            <div className="text-white font-bold text-base">
+              2nd Team All-State Place-Kicker
+            </div>
+            <div className="text-muted text-xs uppercase tracking-widest mt-0.5">
+              Blue Bell / TSWA · Class 6A Texas · 2025
+            </div>
+          </div>
         </div>
 
         {/* Supporting detail */}

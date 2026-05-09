@@ -1,5 +1,3 @@
-import PhotoPlaceholder from "./PhotoPlaceholder";
-
 const stats = [
   { value: "51 YDS", label: "Field Goal Long" },
   { value: "81.6%", label: "Touchback Rate" },
@@ -14,12 +12,14 @@ const rankings = [
 export default function Hero() {
   return (
     <section className="relative pt-16">
-      {/* Photo */}
-      <PhotoPlaceholder
-        label="Full-width action photo — kicking follow-through, in-game, high-res"
-        aspectClass="w-full"
-        className="min-h-[55vh] md:min-h-[65vh]"
-      />
+      {/* Hero photo */}
+      <div className="w-full min-h-[55vh] md:min-h-[65vh] overflow-hidden">
+        <img
+          src="https://static.wixstatic.com/media/594349_746258352b524361ba79285cd548c495~mv2.jpg/v1/fill/w_2042,h_2584,al_c,q_90/noah_abela.jpg"
+          alt="Noah Abela - Kicker/Punter, Class of 2026"
+          className="w-full h-full object-cover object-top min-h-[55vh] md:min-h-[65vh]"
+        />
+      </div>
 
       {/* Content */}
       <div className="bg-charcoal py-16 md:py-24 px-6">
