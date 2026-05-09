@@ -15,8 +15,8 @@ export default function Hero() {
       {/* Hero photo */}
       <div className="w-full min-h-[55vh] md:min-h-[65vh] overflow-hidden">
         <img
-          src="https://static.wixstatic.com/media/594349_746258352b524361ba79285cd548c495~mv2.jpg/v1/fill/w_2042,h_2584,al_c,q_90/noah_abela.jpg"
-          alt="Noah Abela - Kicker/Punter, Class of 2026"
+          src="https://reporternewssports.com/images/650-_dsc4813_dxo_noah%20abela%20lines%20up%20his%20winning%20fg%20in%20the%202nd%20overtime(1).jpg"
+          alt="Noah Abela lines up the game-winning field goal vs. Shadow Creek, 2025"
           className="w-full h-full object-cover object-top min-h-[55vh] md:min-h-[65vh]"
         />
       </div>

@@ -11,8 +11,8 @@ export default function About() {
           {/* Photo */}
           <div className="w-full max-w-[280px] mx-auto md:mx-0 aspect-[3/4] overflow-hidden">
             <img
-              src="https://static.wixstatic.com/media/594349_746258352b524361ba79285cd548c495~mv2.jpg/v1/fill/w_2042,h_2584,al_c,q_90/noah_abela.jpg"
-              alt="Noah Abela"
+              src="https://reporternewssports.com/images/650-_dsc4813_dxo_noah%20abela%20lines%20up%20his%20winning%20fg%20in%20the%202nd%20overtime(1).jpg"
+              alt="Noah Abela - Dawson Eagles Kicker/Punter, Class of 2026"
               className="w-full h-full object-cover object-top"
             />
           </div>
