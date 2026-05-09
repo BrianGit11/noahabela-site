@@ -44,12 +44,6 @@ export default function Contact() {
         {/* Contact info */}
         <div className="flex flex-wrap justify-center gap-x-8 gap-y-3 mb-12">
           <a
-            href="mailto:noah@noahabela.com"
-            className="text-muted hover:text-white transition-colors text-sm font-medium"
-          >
-            noah@noahabela.com
-          </a>
-          <a
             href="https://twitter.com/Noah_Abela"
             target="_blank"
             rel="noopener noreferrer"
