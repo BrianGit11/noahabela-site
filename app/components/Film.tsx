@@ -12,6 +12,23 @@ export default function Film() {
           Watch the Film
         </h2>
 
+        {/* Primary Highlight Reel — placeholder */}
+        <div className="border-l-4 border-gold bg-charcoal p-10 md:p-14 mb-8">
+          <p className="text-gold text-xs uppercase tracking-widest font-semibold mb-3">
+            Primary Highlight Reel
+          </p>
+          <h3 className="text-white text-2xl md:text-3xl font-bold mb-4">
+            Noah Abela — 57-Yd FG &amp; Season Highlights
+          </h3>
+          <p className="text-white/75 text-sm leading-relaxed max-w-xl mb-6">
+            The reel Noah sends to coaches. Field goals, kickoffs, punting —
+            including the 57-yard attempt iced at the half.
+          </p>
+          <p className="text-muted/50 text-xs uppercase tracking-widest">
+            [ YouTube embed coming soon ]
+          </p>
+        </div>
+
         {/* Hudl CTA */}
         <div className="bg-charcoal border border-charcoal-light p-10 md:p-14 text-center mb-16">
           <p className="text-muted text-xs uppercase tracking-widest font-semibold mb-3">

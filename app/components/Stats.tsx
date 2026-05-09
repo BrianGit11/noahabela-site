@@ -1,7 +1,7 @@
 const stats = [
   { value: "17/22", label: "Field Goals", sub: "77.3%" },
   { value: "51 yds", label: "FG Long", sub: null },
-  { value: "38/38", label: "Extra Points", sub: "100%" },
+  { value: "44/44", label: "Extra Points", sub: "100%" },
   { value: "49", label: "Kickoffs", sub: null },
   { value: "40", label: "Touchbacks", sub: "81.6%" },
   { value: "18", label: "Punts", sub: null },

@@ -21,25 +21,28 @@ export default function About() {
           <div className="flex flex-col justify-center gap-4">
             <p className="text-white/85 text-base md:text-lg leading-relaxed">
               Noah Abela is a Class of 2026 kicker and punter from Dawson High
-              School in Pearland, Texas. A two-way specialist, he has competed
-              at Kohl&apos;s Professional Camps since 2022 and trained with
-              Chris Sailer Kicking since 2023 — currently ranked #33 nationally
-              as a kicker and #4 nationally as a punter in his class.
+              School in Pearland, Texas — one of the most competitive football
+              environments in the country. A dual-sport athlete with a soccer
+              background, Noah brings natural ball-striking mechanics and elite
+              footwork to his specialist work.
             </p>
             <p className="text-white/85 text-base md:text-lg leading-relaxed">
-              Noah came up playing soccer, and the footwork shows. His kickoff
-              package features a 67-yard big ball with 3.74 seconds of hang
-              time, and his 81.6% touchback rate ranked among the best in the
-              state. He hit the game-winning field goal in double overtime
-              against Shadow Creek this season — a moment that earned him 2nd
-              Team All-State recognition from the Blue Bell/TSWA in Class 6A
-              Texas.
+              He has competed at Kohl&apos;s and Chris Sailer camps since 2022,
+              earning a #4 national punter ranking and #33 national kicker
+              ranking in his class. In 2025, he delivered when it mattered —
+              drilling the game-winning field goal in double overtime against
+              No. 23 Shadow Creek in a district showdown.
             </p>
             <p className="text-white/85 text-base md:text-lg leading-relaxed">
-              Off the field, Noah carries a 4.5 GPA and is the kind of teammate
-              and student every program wants in the room. He is actively
-              seeking a college opportunity where he can compete at the highest
-              level and contribute both on the field and in the classroom.
+              His range was on full display when a 57-yard field goal attempt
+              was iced at the half — the snap went, the kick split the uprights,
+              and the opposing coach&apos;s timeout was the only thing that kept
+              it off the scoreboard.
+            </p>
+            <p className="text-white/85 text-base md:text-lg leading-relaxed">
+              Off the field, Noah carries a 4.5 GPA and a 1270 SAT. He is
+              built for programs that demand production on Saturdays and
+              excellence in the classroom.
             </p>
           </div>
         </div>
