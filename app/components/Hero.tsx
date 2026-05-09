@@ -15,7 +15,7 @@ export default function Hero() {
       {/* Hero photo */}
       <div className="w-full h-[85vh] overflow-hidden">
         <img
-          src="https://reporternewssports.com/images/650-_dsc4813_dxo_noah%20abela%20lines%20up%20his%20winning%20fg%20in%20the%202nd%20overtime(1).jpg"
+          src="/media/Noah in Action-21.jpeg"
           alt="Noah Abela lines up the game-winning field goal vs. Shadow Creek, 2025"
           className="w-full h-full object-cover object-top"
         />
