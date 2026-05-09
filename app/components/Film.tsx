@@ -12,20 +12,28 @@ export default function Film() {
           Watch the Film
         </h2>
 
-        {/* Primary Highlight Reel — placeholder */}
-        <div className="border-l-4 border-gold bg-charcoal p-10 md:p-14 mb-8">
+        {/* Primary Highlight Reel */}
+        <div className="border-l-4 border-gold bg-charcoal p-8 md:p-10 mb-8">
           <p className="text-gold text-xs uppercase tracking-widest font-semibold mb-3">
             Primary Highlight Reel
           </p>
-          <h3 className="text-white text-2xl md:text-3xl font-bold mb-4">
+          <h3 className="text-white text-2xl md:text-3xl font-bold mb-6">
             Noah Abela — 57-Yd FG &amp; Season Highlights
           </h3>
-          <p className="text-white/75 text-sm leading-relaxed max-w-xl mb-6">
-            The reel Noah sends to coaches. Field goals, kickoffs, punting —
-            including the 57-yard attempt iced at the half.
-          </p>
-          <p className="text-muted/50 text-xs uppercase tracking-widest">
-            [ YouTube embed coming soon ]
+          <div
+            className="relative w-full overflow-hidden border border-charcoal-light mb-4"
+            style={{ paddingBottom: "56.25%" }}
+          >
+            <iframe
+              src="https://www.youtube.com/embed/hIgmWXu7LkE?rel=0&modestbranding=1"
+              title="Noah Abela — 57-Yd FG & Season Highlights"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="absolute inset-0 w-full h-full"
+            />
+          </div>
+          <p className="text-muted/60 text-xs">
+            Field goals, kickoffs, punting — including the 57-yard attempt iced at the half.
           </p>
         </div>
 
