@@ -1,5 +1,6 @@
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
+import Recognition from "./components/Recognition";
 import Film from "./components/Film";
 import Stats from "./components/Stats";
 import Rankings from "./components/Rankings";
@@ -13,6 +14,7 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <Recognition />
         <Film />
         <Stats />
         <Rankings />
